@@ -15,7 +15,7 @@
 	<ul>
   		<li><a href="#vad">Vad är profilen?</a></li>
   		<li><a href="#varför">Varför profilen?</a></li>
-  		<li><a href="#vem">vem använder profilen?</a></li>
+  		<li><a href="#vem">Vem använder profilen?</a></li>
 	</ul>
 </nav>
   
