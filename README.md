@@ -33,6 +33,8 @@
 	</article>
 	<article>
 	
+<p><q>Förut visste jag aldrig vad mina vänner tittade på, nu har jag stenkoll!</q></p>
+
 <a id="varför"><h3>Varför profilen?</h3></a>
 
 <p>
@@ -46,6 +48,7 @@
 </article>
 <article>
 
+<p><q>Bästa appen - fem av fem!</q><p>
 
 <a id="vem"><h3>Vem använder profilen?</h3></a>
 <p>
