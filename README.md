@@ -19,7 +19,7 @@
 	</ul>
 </nav>
   <main>
-	  <p><q>“Ett banbrytande nytt koncept för streamingtjänster”</q></p>
+	  <p><q>Ett banbrytande nytt koncept för streamingtjänster</q></p>
 <article>
 <a id="vad"><h3>Vad är profilen?</h3></a>
 	<p>
