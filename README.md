@@ -5,9 +5,7 @@
   <title>Designgrupp 8</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    <link rel="stylesheet" href="www.webshare.hkr.se/EMGU0056/DesignTeam8/<--insert stylesheet name-->">
-  </style>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">		<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
 </head>
   
 <body>
@@ -18,8 +16,12 @@
   		<li><a href="#vem">Vem använder profilen?</a></li>
 	</ul>
 </nav>
+	<div class="content">	
   <main>
-	  <p><q>Ett banbrytande nytt koncept för streamingtjänster</q></p>
+	<div class="quote">
+	  <q>Ett banbrytande nytt koncept för streamingtjänster</q><br>
+		<p class="quotename">-Testare</p>
+	</div>
 <article>
 <a id="vad"><h3>Vad är profilen?</h3></a>
 	<p>
@@ -32,9 +34,10 @@
 </p>
 	</article>
 	<article>
-	
-<p><q>Förut visste jag aldrig vad mina vänner tittade på, nu har jag stenkoll!</q></p>
-
+	<div class="quote">
+		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
+		<p class="quotename">-En person som tror på oss</p>
+	</div>
 <a id="varför"><h3>Varför profilen?</h3></a>
 
 <p>
@@ -48,7 +51,10 @@
 </article>
 <article>
 
-<p><q>Bästa appen - fem av fem!</q><p>
+<div class="quote">
+	<q>Bästa appen - fem av fem!</q>
+	<p class="quotename">-Glad användare</p>
+</div>
 
 <a id="vem"><h3>Vem använder profilen?</h3></a>
 <p>
@@ -64,8 +70,10 @@
 </main>
   <a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8" target="_blank">Ladda ner via App Store</a>
   <a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en" target="_blank">Ladda ner via Google Play</a>
-  
-  <p><a href="#top">Till toppen</a></p>
+</div>  
+ <div class="btn">		<!--Allt i denna container blir centrerat horisontellt, med hjälp av stylesheetet-->
+  <p><a href="#top" class="btn">TILL TOPPEN</a></p>		<!--Vi får aktivera länken senare, alltså koppla till banner när den finns. För jag antar att det kan bli problem om man länkar till nav-baren som är fast-->
+ </div>
   
 <footer>
 	<p class="note"> Illustrationer är hämtade från <a href="https://undraw.co/" target="_blank">https://undraw.co/</a>. Övrigt material är vårt eget, &copy;2018 Designteam 8. All Rights Reserved.</p>
