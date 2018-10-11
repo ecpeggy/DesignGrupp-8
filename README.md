@@ -20,7 +20,7 @@
   <main>
 	<div class="quote">
 	  <q>Ett banbrytande nytt koncept för streamingtjänster</q><br>
-		<p class="quotename">-Testare</p>
+		<p class="quotename" Testare</p>
 	</div>
 <article>
 <h3 id="what">Vad är profilen?</h3>
