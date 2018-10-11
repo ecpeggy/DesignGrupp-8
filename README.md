@@ -5,7 +5,7 @@
   <title>Designgrupp 8</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">		<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">		<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
 </head>
   
 <body>
