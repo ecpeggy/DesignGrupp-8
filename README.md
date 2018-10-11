@@ -11,9 +11,9 @@
 <body>
   <nav>
 	<ul>
-  		<li><a href="#vad" id="top">Vad är profilen?</a></li>
-  		<li><a href="#varför">Varför profilen?</a></li>
-  		<li><a href="#vem">Vem använder profilen?</a></li>
+  		<li><a href="#what" id="top">Vad är profilen?</a></li>
+  		<li><a href="#why">Varför profilen?</a></li>
+  		<li><a href="#who">Vem använder profilen?</a></li>
 	</ul>
 </nav>
 	<div class="content">	
@@ -23,7 +23,7 @@
 		<p class="quotename">-Testare</p>
 	</div>
 <article>
-<a id="vad"><h3>Vad är profilen?</h3></a>
+<h3 id="what">Vad är profilen?</h3>
 	<p>
 	<ul>
        <li>Profilen är en helt ny funktion i SVT-play appen, användaren har i och med profilen fått en helt ny, egen och personlig sida.</li>
@@ -38,7 +38,7 @@
 		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
 		<p class="quotename">-En person som tror på oss</p>
 	</div>
-<a id="varför"><h3>Varför profilen?</h3></a>
+<h3 id="why">Varför profilen?</h3>
 
 <p>
 	<ul>
@@ -56,7 +56,7 @@
 	<p class="quotename">-Glad användare</p>
 </div>
 
-<a id="vem"><h3>Vem använder profilen?</h3></a>
+<h3 id="who">Vem använder profilen?</h3>
 <p>
 <ul>
       <li>Personen som älskar att dela med sig av sitt liv i sociala medier.</li>
