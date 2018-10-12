@@ -22,7 +22,7 @@
   <main>
 	<div class="quote">
 	  <q>Ett banbrytande nytt koncept för streamingtjänster</q><br>
-		<p class="quotename" Testare</p>
+		<p class="quotename">-Testare</p>
 	</div>
 <article>
 	<img src="/DesignTeam8/connected.png" alt="people connecting" style="width:400px">
