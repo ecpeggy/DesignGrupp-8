@@ -17,7 +17,7 @@
 	</ul>
 </nav>
 <!--Detta ar ej slutgilftig illustration. bara en dummie tagen fran google-->
-<image src="/DesignTeam8/header_main.jpg" alt="collection of videos" style="width:1500px">
+<img src="/DesignTeam8/header_main.jpg" alt="collection of videos" style="width:1500px">
 	<div class="content">	
   <main>
 	<div class="quote">
@@ -25,7 +25,7 @@
 		<p class="quotename" Testare</p>
 	</div>
 <article>
-	<image src="/DesignTeam8/connected.png" alt="people connecting" style="width:400px">
+	<img src="/DesignTeam8/connected.png" alt="people connecting" style="width:400px">
 <h3 id="what">Vad är profilen?</h3>
 	<p>
 	<ul>
@@ -41,7 +41,7 @@
 		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
 		<p class="quotename">-En person som tror på oss</p>
 	</div>
-		<image src="/DesignTeam8/online_world.png" alt="phone with chat" style="width:400px">
+		<img src="/DesignTeam8/online_world.png" alt="phone with chat" style="width:400px">
 
 <h3 id="why">Varför profilen?</h3>
 
@@ -60,7 +60,7 @@
 	<q>Bästa appen - fem av fem!</q>
 	<p class="quotename">-Glad användare</p>
 </div>
-<image src="/DesignTeam8/press_play.png" alt="pressing play" style="width:400px">
+<img src="/DesignTeam8/press_play.png" alt="pressing play" style="width:400px">
 <h3 id="who">Vem använder profilen?</h3>
 <p>
 <ul>
