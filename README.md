@@ -18,7 +18,7 @@
 	</ul>
 </nav>
 <!--Detta ar ej slutgilftig illustration. bara en dummie tagen fran google-->
-<img src="header_main.jpg" alt="collection of videos" style="width:400px">
+<img src="header_main.jpg" alt="collection of videos" style="width:100%">
 	<div class="content">	
   <main>
 	<div class="quote">
