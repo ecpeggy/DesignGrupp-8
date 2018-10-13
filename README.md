@@ -11,9 +11,10 @@
 <body>
   <nav>
 	<ul>
-  		<li><a href="#what" id="top">Vad är profilen?</a></li>
-  		<li><a href="#why">Varför profilen?</a></li>
-  		<li><a href="#who">Vem använder profilen?</a></li>
+		<img id="img-nav" src="logo-nav.png" alt="logo-nav">
+  		<a id="#what" href="#vad">Vad är profilen?</a>
+  		<a id="why" href="#varför">Varför profilen?</a>
+	  	<a id="who" href="#vem">Vem använder profilen?</a>
 	</ul>
 </nav>
 <!--Detta ar ej slutgilftig illustration. bara en dummie tagen fran google-->
