@@ -10,12 +10,10 @@
   
 <body>
   <nav>
-	<ul>
 		<img id="img-nav" src="logo-nav.png" alt="logo-nav">
   		<a id="#what-nav" href="#what">Vad är profilen?</a>
   		<a id="why-nav" href="#why">Varför profilen?</a>
 	  	<a id="who-nav" href="#who">Vem använder profilen?</a>
-	</ul>
 </nav>
 <!--Detta ar ej slutgilftig illustration. bara en dummie tagen fran google-->
 <img src="header_main.jpg" alt="collection of videos" style="width:100%">
