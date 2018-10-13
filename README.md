@@ -42,7 +42,7 @@
 		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
 		<p class="quotename">-En person som tror på oss</p>
 	</div>
-		<img src="online_world.png" alt="phone with chat" style>
+		<img src="online_world.png" alt="phone with chat">
 
 <h3 id="why">Varför profilen?</h3>
 
@@ -61,7 +61,7 @@
 	<q>Bästa appen - fem av fem!</q>
 	<p class="quotename">-Glad användare</p>
 </div>
-<img src="/DesignTeam8/press_play.png" alt="pressing play" style>
+<img src="/DesignTeam8/press_play.png" alt="pressing play">
 <h3 id="who">Vem använder profilen?</h3>
 <p>
 <ul>
