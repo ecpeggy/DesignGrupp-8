@@ -5,7 +5,8 @@
   <title>Designgrupp 8</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">		<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">		
+	<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
 </head>
   
 <body>
@@ -15,7 +16,7 @@
   		<a id="why-nav" href="#why">Varför profilen?</a>
 	  	<a id="who-nav" href="#who">Vem använder profilen?</a>
 </nav>
-<!--Detta ar ej slutgilftig illustration. bara en dummie tagen fran google-->
+<!--slutgiltig illustration-->
 <img src="header_main.jpg" alt="collection of videos" style="width:100%">
 	<div class="content">	
   <main>
@@ -35,30 +36,29 @@
 	</ul>
 </p>
 	</article>
-	<article>
+	
 	<div class="quote">
 		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
 		<p class="quotename">-En person som tror på oss</p>
 	</div>
-		<img src="online_world.png" alt="phone with chat">
-
-<h3 id="why">Varför profilen?</h3>
-
+<article>
+	<img src="online_world.png" alt="phone with chat">
+		<h3 id="why">Varför profilen?</h3>
 <p>
 	<ul>
-        <li>Genom att introducera profilen skapar vi en mer levande app! Det finns nu fler saker att göra samt en möjlighet att interagera med andra.</li>
-        <li>Vi skapar en större gemenskap då användarna kan kommunicera med varandra och prata om de program som finns på appen på ett enklare sätt än förut.</li>
-        <li>Den nya profilen ger appen en modern tappning och gör den roligare att använda.
-        </li>
+       		 <li>Genom att introducera profilen skapar vi en mer levande app! Det finns nu fler saker att göra samt en möjlighet att interagera med andra.</li>
+       		 <li>Vi skapar en större gemenskap då användarna kan kommunicera med varandra och prata om de program som finns på appen på ett enklare sätt än förut.</li>
+       		 <li>Den nya profilen ger appen en modern tappning och gör den roligare att använda.
+        	</li>
 	</ul>
-	</p>
+</p>
 </article>
-<article>
 
 <div class="quote">
 	<q>Bästa appen - fem av fem!</q>
 	<p class="quotename">-Glad användare</p>
 </div>
+<article>
 <img src="/DesignTeam8/press_play.png" alt="pressing play">
 <h3 id="who">Vem använder profilen?</h3>
 <p>
@@ -74,9 +74,12 @@
 </main>
   <a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8" target="_blank">Ladda ner via App Store</a>
   <a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en" target="_blank">Ladda ner via Google Play</a>
-</div>  
+  
  <div class="btn">		<!--Allt i denna container blir centrerat horisontellt, med hjälp av stylesheetet-->
-  <p><a href="#top" class="btn">TILL TOPPEN</a></p>		<!--Vi får aktivera länken senare, alltså koppla till banner när den finns. För jag antar att det kan bli problem om man länkar till nav-baren som är fast-->
+	<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8" target="_blank">Ladda ner via App Store</a>
+  <a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en" target="_blank">Ladda ner via Google Play</a>
+  <p><a href="#top" class="btn">TILL TOPPEN</a></p>		
+	<!--Aktiverade länkar senare, alltså koppla till banner när den finns. För jag antar att det kan bli problem om man länkar till nav-baren som är fast-->
  </div>
   
 <footer>
