@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">		
 	<!--Denna länkning fungerar förutsatt att vi har den mappstruktur vi kommit överens om--> 
 </head>
-  
 <body>
   <nav>
 		<img id="img-nav" src="logo-nav.png" alt="logo-nav">
@@ -18,14 +17,18 @@
 </nav>
 <!--slutgiltig illustration-->
 <img src="header_main.jpg" alt="collection of videos" style="width:100%">
-	<div class="content">	
+	<div class="content">
+		  <div class="btn">
+<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class"download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
+<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class"download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
+</div>
   <main>
 	<div class="quote">
 	  <q>Ett banbrytande nytt koncept för streamingtjänster</q><br>
 		<p class="quotename">-Testare</p>
 	</div>
 <article>
-		<img src="connected.png" alt="people connecting" style>
+		<img src="connected.png" alt="people connecting" style="width:400px">
 <h3 id="what">Vad är profilen?</h3>
 	<p>
 	<ul>
@@ -42,7 +45,7 @@
 		<p class="quotename">-En person som tror på oss</p>
 	</div>
 <article>
-	<img src="online_world.png" alt="phone with chat">
+	<img src="online_world.png" alt="phone with chat" style="width:400px">
 		<h3 id="why">Varför profilen?</h3>
 <p>
 	<ul>
@@ -59,7 +62,7 @@
 	<p class="quotename">-Glad användare</p>
 </div>
 <article>
-<img src="/DesignTeam8/press_play.png" alt="pressing play">
+<img src="/DesignTeam8/press_play.png" alt="pressing play" style="width:400px">
 <h3 id="who">Vem använder profilen?</h3>
 <p>
 <ul>
@@ -72,18 +75,16 @@
 </p>
 	</article>
 </main>
-  <a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8" target="_blank">Ladda ner via App Store</a>
-  <a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en" target="_blank">Ladda ner via Google Play</a>
-  
- <div class="btn">		<!--Allt i denna container blir centrerat horisontellt, med hjälp av stylesheetet-->
-	<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8" target="_blank">Ladda ner via App Store</a>
-  <a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en" target="_blank">Ladda ner via Google Play</a>
+    <div class="btn"> <!--Allt i denna container blir centrerat horisontellt, med hjälp av stylesheetet-->
+<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class"download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
+<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class"download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
   <p><a href="#top" class="btn">TILL TOPPEN</a></p>		
 	<!--Aktiverade länkar senare, alltså koppla till banner när den finns. För jag antar att det kan bli problem om man länkar till nav-baren som är fast-->
  </div>
   
 <footer>
-	<p class="note"> Illustrationer är hämtade från <a href="https://undraw.co/" target="_blank">https://undraw.co/</a>. Övrigt material är vårt eget, &copy;2018 Designteam 8. All Rights Reserved.</p>
+	<p class="note"> Illustrationer är hämtade från <a href="https://undraw.co/" target="_blank">https://undraw.co/</a>. Övrigt material är vårt eget.
+		<br>&copy;2018 Designteam 8. All Rights Reserved.</p>
 </footer>
 
 </body>
