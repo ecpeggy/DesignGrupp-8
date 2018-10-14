@@ -17,16 +17,15 @@
 </nav>
 <!--slutgiltig illustration-->
 <img src="header_main.jpg" alt="collection of videos" style="width:100%">
-	<div class="content">
 		  <div class="btn">
-<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class"download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
-<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class"download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
+<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class="download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
+<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class="download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
 </div>
   <main>
-	<div class="quote">
-	  <q>Ett banbrytande nytt koncept för streamingtjänster</q><br>
-		<p class="quotename">-Testare</p>
-	</div>
+
+<p class="quote"><q>Ett banbrytande nytt koncept för streamingtjänster</q></p>
+<p class="quotename">-Testare</p>
+
 <article>
 		<img src="connected.png" alt="people connecting" style="width:400px">
 <h3 id="what">Vad är profilen?</h3>
@@ -39,11 +38,10 @@
 	</ul>
 </p>
 	</article>
-	
-	<div class="quote">
-		<q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q><br>
-		<p class="quotename">-En person som tror på oss</p>
-	</div>
+
+<p class="quote"><q>Jag vet aldrig vad mina vänner tittar på, men med detta kommer jag att ha stenkoll!</q></p>
+<p class="quotename">-En person som tror på oss</p>
+
 <article>
 	<img src="online_world.png" alt="phone with chat" style="width:400px">
 		<h3 id="why">Varför profilen?</h3>
@@ -57,10 +55,9 @@
 </p>
 </article>
 
-<div class="quote">
-	<q>Bästa appen - fem av fem!</q>
-	<p class="quotename">-Glad användare</p>
-</div>
+<p class="quote"><q>Bästa appen - fem av fem!</q></p>
+<p class="quotename">-Glad användare</p>
+
 <article>
 <img src="/DesignTeam8/press_play.png" alt="pressing play" style="width:400px">
 <h3 id="who">Vem använder profilen?</h3>
@@ -76,8 +73,8 @@
 	</article>
 </main>
     <div class="btn"> <!--Allt i denna container blir centrerat horisontellt, med hjälp av stylesheetet-->
-<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class"download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
-<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class"download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
+<a href="https://itunes.apple.com/se/app/svt-play/id343544214?mt=8"><img class="download" src="app_store_badge.png" alt="apple app store" target="_blank" style="height:40px"></a>
+<a href="https://play.google.com/store/apps/details?id=se.svt.android.svtplay&hl=en"><img class="download" src="google_play_badge.png" alt="google play" target="_blank" style="height:40px"></a>
   <p><a href="#top" class="btn">TILL TOPPEN</a></p>		
 	<!--Aktiverade länkar senare, alltså koppla till banner när den finns. För jag antar att det kan bli problem om man länkar till nav-baren som är fast-->
  </div>
