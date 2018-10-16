@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body */
+body {
+    background: #292929;
+    }
+
+/*Innehåll inom article (illustration + text)*/
+.article {
+	padding: 4.2em 4em 4.2em 4em;
+    margin: auto;
+    max-width: 80%;
+    }
+
+/*Illustrationer ("Vad är profilen" och "Vem använder profilen")*/
+img.floatleft {
+	float: left;
+	padding-left: 10px;
+	margin: 0px 30px 100px 10px;
+    }
+
+/*Illustration ("Varför profilen")*/
+img.floatright {
+	float: right;
+	padding-right: 10px;
+    margin: 0px 10px 0px 30px;
+}
+
+/*("Vad är profilen" och "Vem använder profilen") text box*/
+ul.textboxright {
+margin: 30px 20px 100px 40px;
+}
+
+/*("Varför profilen") text box*/
+ul.textboxleft {
+	margin: 30px 40px 100px 20px;
+}
+
+/*App Store-ikoner*/
+img.download {
+    height: 40px;
+	margin: 0.1em;
+    }
+
+/* Header */
+img.header {
+	width: 100%;
+	height: auto;
+}
+
+.icons {          /* Div-stil */
+	text-align: center;
+	margin-top: 1em;
+}
+
+.conceptidea {
+	text-align: center;
+}
+
+/* Alla länkar utan en klass-definition (sådana som ev. finns i brödtext eller "Ladda ned app") */
+a:link{
+      color: #D1D1D1;    /* Obesökta länkar är ljusgrå */
+    font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";    /* Avgör vilka fonter som får användas av webbläsare */
+    }
+
+a:visited{    /* 'Alla' besökta länkar blir röda */
+      color:#ed5e5e;
+    font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+    }
+
+a:hover, a:active {    /* Håller man muspekaren över länkarna, eller när de är aktiva, blir de orangea */
+    color:#ff9c00;
+    font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+    }
+
+/* Citat */
+p.quote {
+/* Installningar som ar gemensamma for citat och personen som ligger bakom det */
+	margin: auto;
+	text-align: center;    /* Texten centreras */
+	color: #D1D1D1;
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+	padding: 5px;   	 /* Ger extra utrymme inuti elementet så att inte alla delar ligger tight på varandra, angett i pixlar */
+	margin-top: 40px;
+	font-style: italic;    /* Kursiv text */
+	font-size: 1.2em;
+    }
+p.quotename {
+	margin: auto;
+	text-align: center;    /* Texten centreras */
+	color: #D1D1D1;
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+	padding: 5px;
+	margin-bottom: 40px;
+	font-size: 1em;
+  }
+
+
+/* Länkar vars klasser är "btn" får dessa stilar */
+.btn {   	 /* Div-stil */
+	text-align: center;
+	padding: 15px;
+    }
+
+a.btn:link, a.btn:visited {   		 /* Dessa länkar förblir likadana även efter att man har klickat på dem */
+    color: #D1D1D1;   				 /* Ger texten ljusgrå färg */
+    text-decoration: none;   		 /* Tar bort understrykningen från texten */
+    font-family: "Gotham", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 15px;   			 /* Avgör textens font-storlek i pixlar */
+    background-color: #1d1f20;   	 /* Ger en bakgrund eller "ruta" bakom länken med mörkgrå färg */
+    padding: 10px 25px;   			 /* Gör rutan större vertikalt och horisontellt i antal pixlar */
+    border-radius: 50px;   		 /* Gör att rutan är rundad i hörnen istället för kantig */
+    }
+
+a.btn:hover, a.btn:active {
+	 color:#D1D1D1;   				 /* När man håller muspekaren över dessa länkar, eller när de är aktiva, blir texten ljusgrå, som innan */
+    font-family: "Gotham", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    background-color: #383838;   	 /* Ger en bakgrund eller "ruta" bakom länken med ljusare grå färg */
+    }
+
+a.btn:active {
+    border: 2px solid black;   	 /* 2 pixlar bred stroke-effekt runt knappen när den är aktiv (när användaren klickar på den) */
+    border-color: #D1D1D1;   		 /* Effektens färg är ljusgrå */
+    }
+
+/* Sidfot */
+footer {
+    background-color: #383838;
+    max-width: 100%;   			 /* Använder hela sidans bredd för sidfoten */
+    padding-top: 15px;
+    padding-bottom: 15px;   		 /* Samma fast nedåt */
+    margin: auto;   				 /* Centrerar sidfoten */
+    }
+
+/* Sidfotens text */
+p.note {
+    color: #D1D1D1;   				 /* Ljusgrå text */
+    font-size: 85%;   				 /* Minskar textstorleken med 15% så den inte stjäl för mycket fokus från sidans primära innehåll */
+    margin: auto;
+    text-align: center;   			 /* Centrerar texten i elementet */
+    }
+
+/*Navigationslist*/
+nav {
+	padding: 0.3em 0.5em;
+	display: flex;				/*Möjliggör flexbox*/
+	flex-direction: row;			/*Gör så att elementen ligger på rad längst upp på sidan*/
+	align-items: center;			/*Centrerar inehållet lodrätt*/
+	position: fixed;				/*Gör det möjligt för nav att hänga med 	innehållet då användaren scrollar nedåt*/
+	top: 0px;					/*Sprider ut navbaren så den ligger ända upp till toppen på sidan*/
+	left: 0px;					/*Samma som ovan fast åt vänster*/
+	right: 0px;					/*Samma som ovan fast åt höger*/
+	font-size: 1.1em;
+	background-color: #383838;
+	opacity: 0.96;				/*Ökar genomskinligheten på flexboxen*/
+	z-index: 10;					/*Gör så att navbaren hamnar över allt annat innehåll på sidan*/
+}
+
+/*Denna del specificerar hur texten i navigationslisten ska se ut*/
+#what-nav, #who-nav, #why-nav, #illu-nav {
+	text-decoration: none;
+	Text-transform: uppercase;
+	color: #D1D1D1;
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
+
+#what-nav{
+	margin-right: 3em;			/*Placerar länken vågrätt i navbar*/
+}
+
+#why-nav{
+	margin-right: 3em;			/*Placerar länken vågrätt i navbar*/
+}
+
+#who-nav{
+	margin-right: 3em;			/*Placerar länken vågrätt i navbar*/
+    }
+
+#illu-nav{
+	margin-right: 3em;			/*Placerar länken vågrätt i navbar*/
+}
+
+#img-nav{
+	margin-right: 15em;			/*Placerar länken vågrätt i navbar*/
+}
+
+/*Rubriker*/
+h3, h3.headingleft {
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+	font-size: 2em;
+	color: #ed5e5e;
+	text-shadow: 2px 2px #202020;
+}
+
+h3.headingleft {
+	margin-left: 60px;
+}
+
+/*Brödtext*/
+ul {
+	color: #D1D1D1;
+	font-family: "Gotham", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
